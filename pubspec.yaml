@@ -5,3 +5,5 @@ dependencies:
   browser: any
   shelf: any
   shelf_static: any
+transformers:
+- dart_to_js_script_rewriter
