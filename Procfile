@@ -1,1 +1,1 @@
-web: /app/dart-sdk/bin/dart main.dart
+web: /stockpricerecorder/dart-sdk/bin/dart main.dart
