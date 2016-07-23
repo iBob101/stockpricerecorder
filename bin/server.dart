@@ -13,7 +13,7 @@ main() async {
 
     HttpClient client = new HttpClient();
     String url = 'http://www.bloomberg.com/markets/chart/data/1D/AAPL:US';
-    client.getUrl(Uri.parse(url)).then((HttpClientRequest request) {
+    await client.getUrl(Uri.parse(url)).then((HttpClientRequest request) {
       return request.close();
     }).then(HttpBodyHandler.processResponse).then((HttpClientResponseBody body) {
       msg = body.body;
