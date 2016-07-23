@@ -1,10 +1,11 @@
 import 'dart:io';
 import 'package:http_server/http_server.dart';
 
+String msg;
+
 main() async {
 
-  String msg;
-
+  var port = int.parse(Platform.environment['PORT']);
   HttpServer server = await HttpServer.bind('0.0.0.0', port);
   print("Serving at ${server.address}:${server.port}");
 
