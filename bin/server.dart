@@ -5,7 +5,7 @@ main() async {
 
   var port = int.parse(Platform.environment['PORT']);
 
-  var server = await HttpServer.bind(InternetAddress.LOOPBACK_IP_V4, port);
+  HttpServer server = await HttpServer.bind('0.0.0.0', port);
   print("Serving at ${server.address}:${server.port}");
 
   await for (var request in server) {
