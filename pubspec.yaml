@@ -6,5 +6,6 @@ dependencies:
   shelf: any
   shelf_static: any
   dart_to_js_script_rewriter: any
+  http_server: any
 transformers:
 - dart_to_js_script_rewriter
