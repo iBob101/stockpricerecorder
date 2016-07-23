@@ -1,1 +1,1 @@
-web: /stockpricerecorder/dart-sdk/bin/dart main.dart
+web: ./dart-sdk/bin/dart main.dart
