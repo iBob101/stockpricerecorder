@@ -1,5 +1,7 @@
 name: stockpricerecorder
 version: 0.0.1
-description: A simple console application.
+description: Record stock prices
 dependencies:
-  http: any
+  browser: any
+  shelf: any
+  shelf_static: any
